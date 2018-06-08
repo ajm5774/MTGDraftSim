@@ -1,0 +1,40 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "This is my website",
+  "author": "Andrew Mueller <ajm5774@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "element-ui": "^2.4.0",
+    "material-design-icons": "^3.0.1",
+    "material-icons": "^0.2.3",
+    "nuxt": "^1.4.1",
+    "vue": "2.5.16"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "css-loader": "^0.28.11",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "7.9.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "vue-style-loader": "^4.1.0"
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../node_modules/material-icons/css/material-icons.css';
+@import '../../node_modules/element-ui/lib/theme-chalk/index.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import './element-overrides.scss';
+@import './fonts.scss';
+
+
+* {
+  box-sizing: border-box;
+}
+
+body, html, #__nuxt, .el-container {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
